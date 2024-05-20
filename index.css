@@ -1,0 +1,346 @@
+a {
+    text-decoration: none;
+  }
+  html {
+    font-size: 50px;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  @media screen and (min-width: 320px) {
+    html {
+      font-size: 21.33333333px;
+    }
+  }
+  @media screen and (min-width: 360px) {
+    html {
+      font-size: 24px;
+    }
+  }
+  @media screen and (min-width: 375px) {
+    html {
+      font-size: 25px;
+    }
+  }
+  @media screen and (min-width: 384px) {
+    html {
+      font-size: 25.6px;
+    }
+  }
+  @media screen and (min-width: 400px) {
+    html {
+      font-size: 26.66666667px;
+    }
+  }
+  @media screen and (min-width: 414px) {
+    html {
+      font-size: 27.6px;
+    }
+  }
+  @media screen and (min-width: 424px) {
+    html {
+      font-size: 28.26666667px;
+    }
+  }
+  @media screen and (min-width: 480px) {
+    html {
+      font-size: 32px;
+    }
+  }
+  @media screen and (min-width: 540px) {
+    html {
+      font-size: 36px;
+    }
+  }
+  @media screen and (min-width: 720px) {
+    html {
+      font-size: 48px;
+    }
+  }
+  @media screen and (min-width: 750px) {
+    html {
+      font-size: 50px;
+    }
+  }
+
+  html,
+  body {
+    height: 100%;
+    min-height: 30.28rem;
+    /* max-height: 30.28rem; */
+  }
+  
+  body {
+    min-width: 320px;
+    width: 15rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica;
+    background: #fff;
+  }
+
+  .warp {
+    position: inherit;
+    width: 15rem;
+   height: 227rem;
+   margin-top: 3rem;
+    background: url("../imgs/MDM Bet.jpg") no-repeat;
+    background-size: 100% ;
+    background-color: #ffffff;
+  }
+  
+
+ 
+
+  .main {
+    padding: 0.5rem;
+  }
+  
+  .logo {
+    width: 4rem;
+    height: 4rem;
+  }
+  
+  .footer {
+    position: fixed;
+    Color:white;
+    top: 0;
+    width: 14.2rem;
+    padding: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#064122;
+    z-index: 500;
+  }
+  
+  .small-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  
+  .dowmload-button {
+    position: absolute;
+    top: 20.5rem;
+    left: 50%;
+    margin-left: -3.96rem;
+    width: 8rem;
+    height: 2.80rem;
+    animation: myBreath 1s linear infinite;
+    margin-top:4rem;
+  }
+  
+  @keyframes myBreath {
+    0% {
+      transform: scale(0.88);
+    }
+    50% {
+      transform: scale(100%);
+    }
+    100% {
+      transform: scale(0.88);
+    }
+  }
+  
+  .tip {
+    display: flex;
+  }
+  
+  .tip-content {
+    margin-left: 0.3rem;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  
+  .bit-game {
+    font-size: 0.8rem;
+  }
+  
+  .subtitle {
+    font-size: 0.50rem;
+    line-height: 0.6rem;
+color:yellow;
+  }
+  
+  .dowmload {
+    text-align: center;
+    margin-right: 5px;
+    font-size: 0.6rem;
+    color: #ffffff00;
+    background: url("../imgs/download-btn.png") no-repeat;
+    background-size: 100% 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  
+  /* @media only screen and (device-width: 375px) and (-webkit-device-pixel-ratio: 3) {
+    .dowmload-button {
+      top: 14.2rem;
+    }
+  } */
+  
+  /* @media screen and (min-width: 393px) {
+    .dowmload-button {
+      top: 14.8rem;
+    }
+  } */
+
+
+
+.most2{
+  background-color: #2d1ac0;
+  border-radius: 9px;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  margin-left: .3rem;
+  margin-right: .3rem;
+  font-family: roboto;
+}
+
+.master{
+  position: inherit;
+    width: 14.8rem;
+    height: 3.2rem;
+    border-bottom: solid .05rem #f4ec06;
+}
+
+.masterimg{
+width: 2.5rem;
+margin-top: .4rem;
+margin-left: .4rem;
+
+}
+
+.down{
+  position: absolute;
+  width: 4rem;
+margin-top: -2.3rem;
+margin-left: 10.5rem;
+}
+
+.h2{
+  position: absolute;
+  font-size: .6rem;
+  margin-top: -2.8rem;
+  margin-left: 3.5rem;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p1{
+  position: absolute;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: .5rem;
+  margin-top: -2rem;
+  margin-left: 3.6rem;
+  color: #2d1ac0;
+ 
+}
+.p2{
+  color: #22bc4b;
+}
+
+.faq{
+  text-align: center;
+  background-color: #2d1ac0;
+  border-radius: 2rem;
+  color: #ffffff;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: .9rem;
+}
+
+.faq1{
+  font-size: .9rem;
+  background-color: #f42a06;
+  color: #f9f109;
+  text-align: center;
+}
+
+.faqp{
+font-size: .80rem;
+margin-left: .5rem;
+   margin-right: .5rem;
+}
+
+.faq2{
+  font-size: 1rem;
+  margin-left: .5rem;
+  border-top: solid .05rem #fff200;
+  border-bottom: solid .05rem #fff200;
+  margin-right: .5rem;
+  color: #ec06f4;
+}
+
+.features{
+  font-size: .80rem;
+  margin-left: .6rem;
+  margin-right: .5rem;
+}
+
+.foot{
+  width: 15rem;
+  height: 11.5rem;
+  background-color: #064122;
+  margin-left: -1.6rem;
+ 
+}
+
+.footimg{
+  width: 15rem;
+}
+
+.pag1{
+ color: #ffffff;
+ font-size: .6rem;
+margin-left: .7rem;
+text-decoration: underline;
+}
+  
+.pag2{
+  color: #ffffff;
+  font-size: .6rem;
+  margin-left:.8rem ;
+  text-decoration: underline;
+ }
+
+ .pag3{
+  color: #ffffff;
+  font-size: .6rem;
+  margin-left: 1rem;
+  text-decoration: underline;
+ }
+
+ .pag4{
+  color: #ffffff;
+  font-size: .6rem;
+ margin-left: .7rem;
+ text-decoration: underline;
+ }
+   
+ .pag5{
+   color: #ffffff;
+   font-size: .6rem;
+   margin-left:.4rem ;
+   text-decoration: underline;
+  }
+ 
+  .pag6{
+   color: #ffffff;
+   font-size: .6rem;
+   margin-left: .2rem;
+   text-decoration: underline;
+  }
+
+  .bottomp{
+    font-size: .6rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 1rem;
+  }
